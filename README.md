@@ -1,9 +1,30 @@
 # deepstack-ui
 UI for working with [Deepstack](https://deepstack.cc/). Allows uploading an image and performing object detection or face recognition with Deepstack. Also faces can be registered with Deepstack. The effect of various parameters can be explored, including filtering objects by confidence, type and location in the image.
 
+zf211229.1430
+
 <p align="center">
 <img src="https://github.com/robmarkcole/deepstack-ui/blob/master/usage.png" width="1000">
 </p>
+
+## Utilisation
+### Démarage
+```
+./start.sh
+```
+
+### Arrêt
+```
+./stop.sh
+```
+
+### Nettoyage TOTAL !
+```
+./purge.sh
+```
+
+
+
 
 ## Run deepstack
 Run deepstack object detection:
