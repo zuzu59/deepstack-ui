@@ -1,4 +1,4 @@
-#zf211229.1415
+#zf220105.0100
 
 version: "3.9"
 services:
@@ -10,7 +10,7 @@ services:
       - '55000:5000'
     environment:
       - VISION-DETECTION=True
-      - API-KEY="toto"
+      - API-KEY=toto
 #    volumes:
 #      - /Users/robin/Data/pytorch-models:/modelstore/detection
 #      - ./Data/pytorch-models:/modelstore/detection
@@ -24,7 +24,7 @@ services:
     environment: 
       - DEEPSTACK_IP=deepstack
       - DEEPSTACK_PORT=5000
-      - DEEPSTACK_API_KEY="toto"
+      - DEEPSTACK_API_KEY=toto
       - DEEPSTACK_TIMEOUT=20
 #      - DEEPSTACK_CUSTOM_MODEL=fire
       - DEEPSTACK_UI_DEBUG_MODE=True
